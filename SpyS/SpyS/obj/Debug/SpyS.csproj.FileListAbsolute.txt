@@ -1,0 +1,10 @@
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\bin\Debug\SpyS.exe.config
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\bin\Debug\SpyS.exe
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\bin\Debug\SpyS.pdb
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\bin\Debug\WebDriver.xml
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.csprojResolveAssemblyReference.cache
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.MainForm.resources
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.Properties.Resources.resources
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.csproj.GenerateResource.Cache
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.exe
+c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.pdb
