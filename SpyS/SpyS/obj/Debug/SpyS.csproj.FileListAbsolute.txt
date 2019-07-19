@@ -8,3 +8,15 @@ c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\
 c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.csproj.GenerateResource.Cache
 c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.exe
 c:\users\герман\documents\visual studio 2015\Projects\SpyS\SpyS\obj\Debug\SpyS.pdb
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\bin\Debug\SpyS.exe.config
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\bin\Debug\SpyS.exe
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\bin\Debug\SpyS.pdb
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\bin\Debug\WebDriver.xml
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.csprojAssemblyReference.cache
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.MainForm.resources
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.Properties.Resources.resources
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.csproj.GenerateResource.cache
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.csproj.CoreCompileInputs.cache
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.csproj.CopyComplete
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.exe
+C:\Users\Герман\Documents\My Programs\Repositories\SpyS\SpyS\SpyS\obj\Debug\SpyS.pdb

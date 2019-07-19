@@ -39,19 +39,16 @@
             this.IntervalText = new System.Windows.Forms.TextBox();
             this.Checker = new System.Windows.Forms.Timer(this.components);
             this.SubmitBtn = new System.Windows.Forms.Button();
-            this.Note = new System.Windows.Forms.NotifyIcon(this.components);
             this.RefreshBox = new System.Windows.Forms.CheckBox();
             this.RingCheck = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Info_1
             // 
             this.Info_1.AutoSize = true;
             this.Info_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Info_1.Location = new System.Drawing.Point(68, 28);
+            this.Info_1.Location = new System.Drawing.Point(68, 26);
             this.Info_1.Name = "Info_1";
             this.Info_1.Size = new System.Drawing.Size(139, 33);
             this.Info_1.TabIndex = 0;
@@ -61,9 +58,9 @@
             // Start_Button
             // 
             this.Start_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Start_Button.Location = new System.Drawing.Point(172, 90);
+            this.Start_Button.Location = new System.Drawing.Point(12, 89);
             this.Start_Button.Name = "Start_Button";
-            this.Start_Button.Size = new System.Drawing.Size(100, 46);
+            this.Start_Button.Size = new System.Drawing.Size(257, 46);
             this.Start_Button.TabIndex = 1;
             this.Start_Button.Text = "Start";
             this.Start_Button.UseVisualStyleBackColor = true;
@@ -76,15 +73,15 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 196);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(284, 83);
+            this.panel1.Size = new System.Drawing.Size(281, 83);
             this.panel1.TabIndex = 2;
             // 
             // Stop_Button
             // 
             this.Stop_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Stop_Button.Location = new System.Drawing.Point(172, 136);
+            this.Stop_Button.Location = new System.Drawing.Point(12, 141);
             this.Stop_Button.Name = "Stop_Button";
-            this.Stop_Button.Size = new System.Drawing.Size(100, 46);
+            this.Stop_Button.Size = new System.Drawing.Size(257, 46);
             this.Stop_Button.TabIndex = 3;
             this.Stop_Button.Text = "Stop";
             this.Stop_Button.UseVisualStyleBackColor = true;
@@ -104,7 +101,7 @@
             this.ElementText.Name = "ElementText";
             this.ElementText.Size = new System.Drawing.Size(260, 20);
             this.ElementText.TabIndex = 5;
-            this.ElementText.Text = "Element Selector";
+            this.ElementText.Text = "XPath";
             // 
             // IntervalText
             // 
@@ -129,10 +126,6 @@
             this.SubmitBtn.UseVisualStyleBackColor = true;
             this.SubmitBtn.Click += new System.EventHandler(this.SubmitBtn_Click);
             // 
-            // Note
-            // 
-            this.Note.Text = "SELL & BUY!!!";
-            // 
             // RefreshBox
             // 
             this.RefreshBox.AutoSize = true;
@@ -153,23 +146,12 @@
             this.RingCheck.Text = "Ring";
             this.RingCheck.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::SpyS.Properties.Resources.Img_1;
-            this.pictureBox1.Location = new System.Drawing.Point(33, 89);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 101);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(284, 279);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(281, 279);
             this.Controls.Add(this.RingCheck);
             this.Controls.Add(this.RefreshBox);
             this.Controls.Add(this.SubmitBtn);
@@ -187,7 +169,6 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,10 +185,8 @@
         private System.Windows.Forms.Timer Checker;
         private System.Windows.Forms.TextBox IntervalText;
         private System.Windows.Forms.Button SubmitBtn;
-        private System.Windows.Forms.NotifyIcon Note;
         private System.Windows.Forms.CheckBox RefreshBox;
         private System.Windows.Forms.CheckBox RingCheck;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

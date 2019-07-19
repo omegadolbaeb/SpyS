@@ -4,6 +4,7 @@ using OpenQA.Selenium.Chrome;
 using System.Drawing;
 using System.Media;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace SpyS
 {
@@ -30,7 +31,7 @@ namespace SpyS
                 Checker.Interval = interval;
                 Checker.Start();
             }
-            catch { MessageBox.Show("Имей совесть!", "Урод", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            catch { MessageBox.Show("", "", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
         private void Stop_Button_Click(object sender, EventArgs e)
@@ -62,14 +63,16 @@ namespace SpyS
                 {
                     ChromeBrowser.Navigate().GoToUrl(url);
                 }
-                Info_1.Text = ChromeBrowser.FindElementByCssSelector(element).Text;
+                Info_1.Text = ChromeBrowser.FindElementByXPath(element).Text;
             }
-            catch {}
+            catch (Exception ex){
+                MessageBox.Show(ex.Message,"", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            SoundChange(SpyS.Properties.Resources.soundtrack_1);
+            Sound.Play();
         }
 
         private void SubmitBtn_Click(object sender, EventArgs e)
@@ -82,11 +85,12 @@ namespace SpyS
                 ChromeBrowser = new ChromeDriver();
                 ChromeBrowser.Navigate().GoToUrl(url);
             }
-            catch { MessageBox.Show("Имей совесть!", "Урод", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+            catch { MessageBox.Show("", "", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
 
         private void SoundChange(Stream stream)
         {
+            stream.Position = 0;
             Sound.Stop();
             Sound.Stream = stream;
             Sound.Play();
